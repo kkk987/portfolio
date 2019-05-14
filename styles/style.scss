@@ -1,0 +1,49 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css");
+@import url("https://fonts.googleapis.com/css?family=Lato|Roboto");
+@import "library/mixins.scss";
+@import "library/variables.scss";
+
+
+
+
+#container {
+    @include font-settings();
+    background-color: red;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 10% repeat(3, 1fr);
+}
+
+#main-nav {
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+}
+
+.dialog {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+     height: 50%;
+     width: 50%;
+}
+
+.image-wrap {
+    position: relative;
+    display: inline-block;
+    // width: fit-content;
+    .text {
+        position: absolute;
+        // left: 10px;
+        z-index: 999;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        text-align: center;
+        bottom: 40%;
+        // background: rgba(0, 0, 0, 0.8);
+        // bottom: 1px;
+    }
+}
+
