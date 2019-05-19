@@ -10,33 +10,129 @@
 <body>
     <div id="container">
         <section id="main-nav">
-            <p>Weiliang Ying</p>
+            <div class="dropdown">
+                
+                <img src="./images/menu_btn.png" alt="menu_btn">
+                <div class="dropdown-content">
+                    <a href="#home">Home</a>
+                    <a href="#about-me">About me</a>
+                    <a href="#work">Work</a>
+                    <a href="#contact">Contact</a>
+                    <!-- <a href="#resources">Resource</a> -->
+                </div>
+            </div>
+            <a class="nav-content" href="#home">Home</a>
+            <a class="nav-content" href="#about-me">About me</a>
+            <a class="nav-content" href="#work">Work</a>
+            <a class="nav-content" href="#contact">Contact</a>
+            <!-- <a class="nav-content" href="#resources">Resource</a> -->
         </section>
 
-        <section id="main">
-            <!-- <header id="main-header">
-                <h1>You Can Code</h1>
+        <section class="mainpage" id="home">
+            <!-- <header>
+                <h1 id="home-header">Home</h1>
+                
             </header> -->
-            <section class="image-wrap">
-                <img class="dialog" src="./images/dialog.png" alt="dialog">
-                <p class="text">About me</p>
-            </section>
-            <section class="image-wrap">
-                <img class="dialog" src="./images/dialog.png" alt="dialog">
-                <p class="text">Word</p>
-            </section>
-            <section class="image-wrap">
-                <img class="dialog" src="./images/dialog.png" alt="dialog">
-                <p class="text">Contact</p>
-            </section>
+            <div class="intro-block">
+                <img class="logo" src="./images/logo.png" alt="logo">
+                <img class="dialog"  src="./images/dialog_intro_1.png" alt="intro">
+            </div>
+            <div class="intro-block">
+                <img class="logo" src="./images/logo.png" alt="logo">
+                <img class="dialog"  src="./images/dialog_intro_2.png" alt="intro">
+            </div>
+            <div class="intro-block">
+                    <img class="logo" src="./images/logo.png" alt="logo">
+                    <img class="dialog"  src="./images/dialog_intro_3.png" alt="intro">
+            </div>
+            <div id="file-icon" class="intro-block">
+                <a href="#about-me"><img id="file-explorer" src="./images/P5IconPack_v1.0/file_explorer.ico" alt="file_explorer"></a>
+                <span class="find-more">Find more</span>
+            </div>
         </section>
 
-        <section id="resources">
-            <header id="resources-header">
-            </header>
+        <section class="mainpage" id="about-me">
+
+                <section class= "title">
+                    <img class="dialog" src="./images/Speechbubble_aboutme.png" alt="about-me">
+                
+              </section>
+              <section>
+                
+                <p>I am passionate about interactive media, and in an age of digital I believe bringing design to life with code is essential. So, I specialise in a multi-disciplined approach to my work incorporating design and development.</p>
+                
+                
+              </section>
+              <section>
+                
+                <img class="section-img profile" src="./images/logo.png" />
+                <p>A full-time freelancer, I’m 28 and currently based in Cambridgeshire in the UK.</p>
+                
+              </section>
+              <section class="bigbottom">
+                <h2>Skills</h2>
+                <p>Some Text goes here, some text goes here, some text goes here, some text goes here.</p>
+                
+              </section>
+
+              <section>
+                <h2>A little of background</h2>
+                <p>I studied at the University of Sunderland, where I gained a 1st Class BA Hons in Design: Multimedia and Graphics. It was during my studies where I met my wife, Erin; with whom I now share a beautiful baby son.</p>
+              </section>
         </section>
+
+        <section class="mainpage" id="work">
+            <section class="title" id="section-work">
+                    <img class="dialog" src="./images/Speechbubble_work.png" alt="work">    
+            </section>
+            
+            <section>
+              <h2>Skills</h2>
+              <p>Some Text goes here, some text goes here, some text goes here, some text goes here.</p>
+              
+            </section>
+
+            <section>
+              <h2>A little of background</h2>
+              <p>I studied at the University of Sunderland, where I gained a 1st Class BA Hons in Design: Multimedia and Graphics. It was during my studies where I met my wife, Erin; with whom I now share a beautiful baby son.</p>
+            </section>
+            
+        </section>
+
+        <section class="mainpage" id="contact">
+           <section>
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                <label for="country">Country</label>
+                <select id="country" name="country">
+                    <option value="australia">Australia</option>
+                    <option value="canada">Canada</option>
+                    <option value="usa">USA</option>
+                </select>
+
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+                <input type="submit" value="Submit">
+           </section>
+ 
+        </section>
+
+        <!-- <section class="mainpage" id="resources">
+            <header>
+                <h1 id="resource-header">Resource</h1>
+            </header>
+        </section> -->
 
         <footer id="footer">
+                <p>Some text some text some text some text..</p>
+                <p>Some text some text some text some text..</p>
+                <p>Some text some text some text some text..</p>
+                <p>Some text some text some text some text..</p>
         </footer>
     </div>
 </body>
