@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./styles/style.css">
+
     <title>Portfolio</title>
 </head>
 <body>
@@ -46,7 +47,7 @@
                     <img class="dialog"  src="./images/dialog_intro_3.png" alt="intro">
             </div>
             <div id="file-icon" class="intro-block">
-                <a href="#about-me"><img id="file-explorer" src="./images/P5IconPack_v1.0/file_explorer.ico" alt="file_explorer"></a>
+                <a href="#about-me"><img class="icon" src="./images/P5IconPack_v1.0/file_explorer.ico" alt="file_explorer"></a>
                 <span class="find-more">Find more</span>
             </div>
         </section>
@@ -57,82 +58,96 @@
                     <img class="dialog" src="./images/Speechbubble_aboutme.png" alt="about-me">
                 
               </section>
-              <section>
-                
-                <p>I am passionate about interactive media, and in an age of digital I believe bringing design to life with code is essential. So, I specialise in a multi-disciplined approach to my work incorporating design and development.</p>
-                
-                
-              </section>
-              <section>
-                
-                <img class="section-img profile" src="./images/logo.png" />
-                <p>A full-time freelancer, I’m 28 and currently based in Cambridgeshire in the UK.</p>
-                
-              </section>
-              <section class="bigbottom">
-                <h2>Skills</h2>
-                <p>Some Text goes here, some text goes here, some text goes here, some text goes here.</p>
-                
-              </section>
 
-              <section>
-                <h2>A little of background</h2>
-                <p>I studied at the University of Sunderland, where I gained a 1st Class BA Hons in Design: Multimedia and Graphics. It was during my studies where I met my wife, Erin; with whom I now share a beautiful baby son.</p>
-              </section>
+              <div>
+                    <section>
+                
+                            <p>I am passionate about web development, and in an age of digital I believe bringing design to life with code is essential. So, I specialise in a multi-disciplined approach to my work incorporating design and development.</p>
+                            
+                            
+                          </section>
+                          <section>
+                            
+                            <img class="section-img profile" src="./images/logo.png" />
+                            <p>A full-stack developer in training, I’m currently based in Brisbane in the Australia.</p>
+                            
+                          </section>
+                          <section class="bigbottom">
+                            <h2>Skills</h2>
+                            <img class="icon" src="./images/P5IconPack_v1.0/c_program.ico" alt="c_program">
+                            <img class="icon" src="./images/P5IconPack_v1.0/java_program.ico" alt="java_program">
+                            <img class="icon" src="./images/P5IconPack_v1.0/m_excel_icon.ico" alt="excel">
+                            <img class="icon" src="./images/P5IconPack_v1.0/m_powerpoint_icon.ico" alt="powerpoint">
+                            <img class="icon" src="./images/P5IconPack_v1.0/m_word_icon.ico" alt="word">
+            
+                          </section>
+            
+                          <section>
+                            <h2>A little of background</h2>
+                            <p>I studied at the University of Queensland, where I gained bachelor in Electrical Engineering. It was during my studies where I first learnt programing and enjoyed it.</p>
+                          </section>
+              </div>
+
+              
         </section>
 
         <section class="mainpage" id="work">
-            <section class="title" id="section-work">
-                    <img class="dialog" src="./images/Speechbubble_work.png" alt="work">    
-            </section>
-            
-            <section>
-              <h2>Skills</h2>
-              <p>Some Text goes here, some text goes here, some text goes here, some text goes here.</p>
-              
-            </section>
-
-            <section>
-              <h2>A little of background</h2>
-              <p>I studied at the University of Sunderland, where I gained a 1st Class BA Hons in Design: Multimedia and Graphics. It was during my studies where I met my wife, Erin; with whom I now share a beautiful baby son.</p>
-            </section>
-            
+                <section class="title" id="section-work">
+                        <img class="dialog" src="./images/Speechbubble_work.png" alt="work">    
+                </section>
+            <div class="content-box">
+                    
+                    
+                    <section>
+                      <h2>Hangman Demo</h2>
+                      <img class="demo" src="./images/hangman_rec.gif" alt="hangman demo">
+                      <p>This is a demo of hangman project.</p>
+                      <a href="https://github.com/kkk987/Hangman">Find more...</a>
+                      
+                    </section>
+        
+        
+            </div>
+                        
         </section>
 
         <section class="mainpage" id="contact">
-           <section>
-                <label for="fname">First Name</label>
-                <input type="text" id="fname" name="firstname" placeholder="Your name..">
-
-                <label for="lname">Last Name</label>
-                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-
-                <label for="country">Country</label>
-                <select id="country" name="country">
-                    <option value="australia">Australia</option>
-                    <option value="canada">Canada</option>
-                    <option value="usa">USA</option>
-                </select>
-
-                <label for="subject">Subject</label>
-                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-
-                <input type="submit" value="Submit">
-           </section>
+                <img class="dialog" id="contact-dialog" src="./images/Speechbubble_contact.png" alt="contact">
+            <div class="contact-form">  
+                    
+                <form id="contact-content" action="" method="post">
+                        <!-- <img class="dialog" src="./images/Speechbubble_contact.png" alt="contact"> -->
+                  <fieldset>
+                    <input placeholder="Your name" type="text" tabindex="1" required autofocus>
+                  </fieldset>
+                  <fieldset>
+                    <input placeholder="Your Email Address" type="email" tabindex="2" required>
+                  </fieldset>
+                  <fieldset>
+                    <input placeholder="Your Phone Number" type="tel" tabindex="3" required>
+                  </fieldset>
+                  <fieldset>
+                    <textarea placeholder="Type your message here...." tabindex="4" required></textarea>
+                  </fieldset>
+                  <fieldset>
+                    <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+                  </fieldset>
+                </form>
+              </div>
  
         </section>
 
-        <!-- <section class="mainpage" id="resources">
-            <header>
-                <h1 id="resource-header">Resource</h1>
-            </header>
-        </section> -->
-
         <footer id="footer">
-                <p>Some text some text some text some text..</p>
-                <p>Some text some text some text some text..</p>
-                <p>Some text some text some text some text..</p>
-                <p>Some text some text some text some text..</p>
+            <a href="https://github.com/kkk987?tab=repositories">
+                <img class="icon" src="./images/github.png" alt="github">
+            </a>
+            <a href="https://twitter.com/ying_mark?lang=en">
+                <img class="icon" src="./images/twitter.png" alt="twitter">
+            </a>
+            <a href="https://www.linkedin.com/in/weiliang-ying-014784140">
+                <img class="icon" src="./images/linkedin.png" alt="linkedin">
+            </a>
+            <p class="copyright">Designed by Mark Ying</p>
         </footer>
     </div>
 </body>
