@@ -173,6 +173,7 @@ h1 {
           column-count: 1;
   -webkit-column-gap: 20px;
           column-gap: 20px;
+  padding-top: 100px;
 }
 
 #about-me section {
