@@ -2,10 +2,11 @@
 #contact {
     // background-color: green;
     // position: relative;
-    background-image: url("../images/background_clean.png");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    overflow: auto;
+    @include load-bg-img($bg-img-mobile);
+    // background-image: url("../images/background_clean.png");
+    // background-repeat: no-repeat;
+    // background-size: 100% 100%;
+    // overflow: auto;
     grid-area: contact;
     .contact-form {
         max-width: 800px;
@@ -32,11 +33,11 @@
     input[type="email"],
     input[type="tel"],
     textarea {
-        width: 90%;
-        border: 1px solid #ccc;
-        background: #FFF;
+        background: $fourth-bgcolor;
+        border: 1px solid $secondary-border-color;
         margin: 0 0 5px;
         padding: 10px;
+        width: 90%;
     }
     textarea {
         height: 100px;
@@ -47,13 +48,13 @@
         cursor: pointer;
         width: 90%;
         border: none;
-        background: #333;
-        color: #FFF;
+        background: $primary-bgcolor;
+        color: $primary-font-color;
         margin: 0 0 5px;
         padding: 10px;
         font-size: 15px;
         &:hover {
-            background: #43A047;
+            background: $submit-bgcolor;
             transition: background-color 0.3s ease-in-out;    
         }
         &:active {

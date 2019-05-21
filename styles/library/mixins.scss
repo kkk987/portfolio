@@ -2,3 +2,31 @@
 	color: $color;
 	font-family: $family;
 }
+
+@mixin flex-setting ($flow:row, $horizon:center, $vertical:center) {
+	display: flex;
+	flex-flow: $flow wrap;
+	justify-content: $horizon;
+	align-items: $vertical;
+}
+
+@mixin load-bg-img ($url) {
+	background-image: url($url);
+    background-repeat: no-repeat;
+	background-size: 100% 100%;
+	overflow: auto;
+}
+
+@mixin set-column($columns:$colum-count-mobile, $gap:20px) {
+	column-count: $columns;
+	column-gap: $gap;
+}
+
+@mixin block-setting {
+	break-inside: avoid;
+    border: 2px solid $primary-border-color;
+    border-radius: 3px;
+    background-color: $third-bgcolor;
+    margin-bottom: 20px;
+    overflow: hidden;
+}

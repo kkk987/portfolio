@@ -4,8 +4,8 @@
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: rgba(51,51,51,0.9);
-    color: white;
+    background-color: $primary-bgcolor-transparent;
+    color: $primary-font-color;
     grid-area: footer;
     text-align: center;
 }
