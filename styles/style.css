@@ -15,11 +15,31 @@ body {
   display: grid;
   -ms-grid-columns: 1fr;
       grid-template-columns: 1fr;
-      grid-template-areas: "main-nav" "home" "about-me" "work" "contact" "footer";
+      grid-template-areas: "main-nav" "home" "about-me" "work" "contact" "footer";
 }
 
-h1 {
-  margin: 0;
+.main-page {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 100vh;
+}
+
+.dialog {
+  width: 230px;
+  margin: 1vh 0 0 1vw;
+}
+
+.speech-bubble {
+  width: 230px;
+  margin: 1vh 0 0 1vw;
+}
+
+.logo {
+  width: 50px;
+}
+
+.icon {
+  width: 70px;
 }
 
 #main-nav {
@@ -91,29 +111,12 @@ h1 {
   display: block;
 }
 
-* {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-.dialog {
-  width: 230px;
-  margin: 1vh 0 0 1vw;
-}
-
-.logo {
-  width: 50px;
-}
-
-.icon {
-  width: 70px;
-}
-
 #home {
   background-image: url("../images/background_clean.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   overflow: auto;
+  height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -257,8 +260,7 @@ h1 {
 }
 
 #contact .contact-form {
-  max-width: 400px;
-  width: 100%;
+  max-width: 800px;
   margin: 0 auto;
   position: relative;
 }
@@ -367,7 +369,6 @@ h1 {
   #about-me div {
     -webkit-column-count: 2;
             column-count: 2;
-    height: 100vh;
   }
 }
 

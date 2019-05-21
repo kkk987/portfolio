@@ -1,0 +1,48 @@
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: red;
+}
+
+#container {
+    @include font-settings();
+    // background-color: red;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+		"main-nav"
+        "home"
+        "about-me"
+        "work"
+        "contact"
+        "footer";
+        // justify-items: center;
+    // grid-template-rows: 54px 800px repeat(3,1fr) 100px;
+    // row-gap: 54px;
+}
+
+.main-page {
+    box-sizing: border-box;
+    height: 100vh;
+}
+
+.dialog {
+    width: 230px;
+    margin: 1vh 0 0 1vw;
+}
+
+.speech-bubble {
+    width: 230px;
+    margin: 1vh 0 0 1vw;    
+}
+
+.logo {
+    width: 50px;
+}
+
+.icon {
+    width: 70px;
+}
