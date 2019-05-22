@@ -24,9 +24,10 @@ body {
     // row-gap: 54px;
 }
 
-.main-page {
+.mainpage {
     box-sizing: border-box;
-    height: 100vh;
+    // height: 100vh;
+    padding: 20px;
 }
 
 .dialog {
@@ -34,10 +35,10 @@ body {
     margin: 1vh 0 0 1vw;
 }
 
-.speech-bubble {
-    width: 230px;
-    margin: 1vh 0 0 1vw;    
-}
+// .speech-bubble {
+//     width: 230px;
+//     margin: 1vh 0 0 1vw;    
+// }
 
 .logo {
     width: 50px;

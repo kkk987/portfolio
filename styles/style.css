@@ -18,18 +18,13 @@ body {
       grid-template-areas: "main-nav" "home" "about-me" "work" "contact" "footer";
 }
 
-.main-page {
+.mainpage {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  height: 100vh;
+  padding: 20px;
 }
 
 .dialog {
-  width: 230px;
-  margin: 1vh 0 0 1vw;
-}
-
-.speech-bubble {
   width: 230px;
   margin: 1vh 0 0 1vw;
 }
@@ -117,6 +112,7 @@ body {
   background-size: 100% 100%;
   overflow: auto;
   height: 100vh;
+  padding: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -211,6 +207,8 @@ body {
 }
 
 #work .demo {
+  height: 100%;
+  width: 100%;
   max-width: 800px;
 }
 
@@ -305,10 +303,6 @@ body {
 #contact button[type="submit"]:active {
   -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
           box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
-}
-
-#contact #contact-dialog {
-  margin: 10vh 0 0 10vw;
 }
 
 #footer {
