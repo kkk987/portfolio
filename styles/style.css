@@ -131,6 +131,13 @@ body {
   grid-area: home;
 }
 
+#home table {
+  table-layout: fixed;
+  padding-left: 5vw;
+  border-collapse: separate;
+  border-spacing: 0 10vh;
+}
+
 #home .find-more {
   visibility: hidden;
   width: 120px;
@@ -142,6 +149,10 @@ body {
   /* Position the tooltip text - see examples below! */
   position: absolute;
   z-index: 1;
+}
+
+#home #file-icon {
+  text-align: center;
 }
 
 #home #file-icon:hover .find-more {
@@ -388,16 +399,13 @@ body {
     background-image: url(../images/background_pc.jpg);
   }
   #home .dialog {
-    width: 266px;
+    width: 334px;
   }
   #home .logo {
     width: 70px;
   }
   #home #file-explorer {
     width: 70px;
-  }
-  #home #file-icon {
-    padding-left: 10em;
   }
   #about-me div {
     -webkit-column-count: 3;

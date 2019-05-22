@@ -12,7 +12,16 @@
     // justify-content: space-evenly;
     // align-items: center;
     
-    
+    table {
+        table-layout: fixed;
+        padding-left: 5vw;
+        border-collapse: separate;
+        border-spacing: 0 10vh;
+        // #bottom-block {
+        //     // text-align: center;
+        //     align-self: center;
+        // }
+    }
     
     .find-more {
         visibility: hidden;
@@ -28,6 +37,7 @@
         z-index: 1;
     }
     #file-icon {
+        text-align: center;
         &:hover .find-more {
             visibility: visible;
         }
