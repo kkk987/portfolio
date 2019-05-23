@@ -1,50 +1,29 @@
+// here holds settings for about me section
 #about-me {
-    // background-color: #D00000;
-    @include load-bg-img($bg-img-mobile);
-    // background-image: url("../images/background_clean.png");
-    // background-repeat: no-repeat;
-    // background-size: 100% 100%;
-    // overflow: auto;
-    // border-top: 3px solid #040507;
-    // position: relative;
-    grid-area: about-me;
-    margin: 0 auto;
-    padding: 20px;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 2fr;
-    div {
-        @include set-column($colum-count-mobile, 20px);
-        // column-count: 1;
-        // column-gap: 20px;
-        padding-top: 100px;
-        // margin-top: 150px;
-        // height: 100vh;
-    }
-    .aboutme-content {
-        @include block-setting;
-        // break-inside: avoid;
-        // border: 2px solid $primary-border-color;
-        // border-radius: 3px;
-        // background-color: $third-bgcolor;
-        // margin-bottom: 20px;
-        // overflow: hidden;
-    }
-    // .title {
-    //     background-color: transparent;
-    //     border: none;
-    // }
-    .section-img {
-        display: block;
-        padding: 10px;
-        margin: 0 auto 10px auto;
-        width: 80%;
-        // border-radius: 50%;
-        // margin-bottom: 10px;
-      }
-      
-    //   .profile {
-        
-    //   }
-    
+  @include load-bg-img($bg-img-mobile); // load the background image
+  grid-area: about-me;
+  // position the about me layout
+  margin: 0 auto;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr;
+  // 1st row holds the title image
+  // 2nd row holds the content
+  grid-template-rows: 2fr;
+  // card layout settings
+  div {
+    @include set-column($colum-count-mobile, 20px);
+    padding-top: 100px;
+  }
+  // styling for each card
+  .aboutme-content {
+    @include block-setting;
+  }
+  // position the image
+  .section-img {
+    display: block;
+    padding: 10px;
+    margin: 0 auto 10px auto;
+    width: 80%;
+  }
 }

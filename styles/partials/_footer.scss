@@ -1,11 +1,9 @@
+// here holds the setting for footter section
 #footer {
-    // background-color: yellow;
-    // position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: $primary-bgcolor-transparent;
-    color: $primary-font-color;
-    grid-area: footer;
-    text-align: center;
+  // position the footer
+  width: 100%;
+  background-color: $primary-bgcolor-transparent;
+  color: $primary-font-color;
+  grid-area: footer;
+  text-align: center;
 }

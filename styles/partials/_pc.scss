@@ -1,0 +1,45 @@
+// Here holds the settings for pc devices
+@media only screen and (min-width:961px) {
+    // spread the menu at the right
+    #main-nav {
+      flex-flow: row wrap;
+      align-items: flex-end;
+      img {
+        align-self: center;
+      }
+      .nav-content {
+        display: block;
+      }
+      .dropdown-content {
+        display: none; // hide the drop down menu
+      }
+      .dropdown {
+        &:hover .dropdown-content{
+          display: none; // disable the drop down menu 
+        }
+      }
+    }
+    #home {
+          height: 60em;
+          align-items: flex-start;
+          padding-left: 1em;
+          // resize dialog images and logoes for better view on pc
+          .dialog {
+            width: 334px;
+          }
+          .logo {
+            width: 70px;
+          }
+          #file-explorer {
+            width: 70px;
+          }
+          background-image: url(../images/background_pc.jpg);
+      }
+      #about-me {
+        div {
+          column-count: $colum-count-pc;
+          height: $full-screen-size;
+        }
+      }
+  }
+  

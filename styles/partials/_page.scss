@@ -1,49 +1,44 @@
-
+// page holds the settings apply to whole html
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {
-    background-color: $secondary-bgcolor;
+  background-color: $secondary-bgcolor;
 }
 
 #container {
-    @include font-settings();
-    // background-color: red;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-areas:
-		"main-nav"
-        "home"
-        "about-me"
-        "work"
-        "contact"
-        "footer";
-        // justify-items: center;
-    // grid-template-rows: 54px 800px repeat(3,1fr) 100px;
-    // row-gap: 54px;
+  @include font-settings();
+  // Use grid for the basic layout
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-areas:
+	"main-nav"
+  "home"
+  "about-me"
+  "work"
+  "contact"
+  "footer";
 }
 
+// set the padding for all main sections
 .mainpage {
-    box-sizing: border-box;
-    // height: 100vh;
-    padding: 20px;
+  box-sizing: border-box;
+  padding: 20px;
 }
 
+// this is the mobile friendly size for dialogs
 .dialog {
-    width: 230px;
-    margin: 1vh 0 0 1vw;
+  width: 230px;
+  margin: 1vh 0 0 1vw;
 }
 
-// .speech-bubble {
-//     width: 230px;
-//     margin: 1vh 0 0 1vw;    
-// }
-
+// this is the mobile friendly size for logoes
 .logo {
-    width: 50px;
+  width: 50px;
 }
 
+// this is the mobile friendly size for icons
 .icon {
-    width: 70px;
+  width: 70px;
 }

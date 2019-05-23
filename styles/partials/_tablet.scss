@@ -1,0 +1,38 @@
+// Here holds the setting for tablet devices
+@media only screen and (min-width:532px) and (max-width:960px) {
+    #main-nav {
+      justify-content: space-around; // spread menu evenly from center
+      img {
+        align-self: center;
+      }
+      .nav-content {
+        display: block;
+      }
+      .dropdown-content {
+        display: none; // hide the drop down menu
+      }
+      .dropdown {
+        &:hover .dropdown-content{
+          display: none; // disable the drop down menu 
+        }
+      }
+    }
+    #home {
+          min-height: 61em; // min height to hold the page
+          .dialog {
+              width: 334px; // enlarge the dialog box for tablets
+          }
+          .logo {
+              width: 70px; // set a visiable size for logos and icons
+          }
+          .icon {
+              width: 70px;
+          }
+          background-color: $secondary-bgcolor;
+      }
+    #about-me{
+      div {
+        column-count: $colum-count-tablet; // set a suitable colum count for better layout
+      }
+    }
+  }
