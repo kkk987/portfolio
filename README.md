@@ -16,14 +16,14 @@ https://github.com/kkk987/portfolio.git
 
 * Purpose:
 
-    The purpose of this priject is to demostarte the understaning and skills of front end web development and also design a personal web portfolio. This assignment also provides a good opportunity to practise html, css and sass development.
+    The purpose of this project is to demonstrate the understanding and skills of front end web development and also design a personal web portfolio. This assignment also provides a good opportunity to practise HTML, CSS and sass development.
 
 * Functionality / features
 
-    This project is a personal web portfolio of a single page. The functionalities incldue the followings:
-    - mavigation bar,
-    - hyperlink to external website, 
-    - reponsive design for mobile, tablet and pc
+   This project is a personal web portfolio of a single page. The functionalities include the followings:
+    - navigation bar,
+    - hyperlink to an external website, 
+    - responsive design for mobile, tablet and pc
     - appropriate layout design (card layout)
     - use of grid and flex
     - use of table
@@ -54,11 +54,11 @@ https://github.com/kkk987/portfolio.git
 
 * Target audience
 
-    There are 2 types of target audience for this project.
+    There are 2 types of the target audience for this project.
     
-    First type of audience is the trainer of coder academy and classmates as this is an assignment of gentech course. Therefore, one of the purposes of this project is to meet the requirments of the assignment such as the presentation to classmates. 
+    The first type of audience is the trainer of coder academy and classmates as this is an assignment of gentech course. Therefore, one of the purposes of this project is to meet the requirements of the assignment such as the presentation to classmates. 
     
-    The other group of audience is the potential employer as this portfolio would be a good demostration of front end development. 
+    The other group of audience is the potential employer as this portfolio would be a good demonstration of front end development. 
 
 * Tech stack (e.g. html, css, deployment platform, etc)
 
@@ -73,12 +73,13 @@ https://github.com/kkk987/portfolio.git
 
 
 * Design process
+    
+    The inspiration for this webpage is from a game called Persona 5 and a social application called line. And the conceptual design is like the wireframe displayed below. As the core color for the design is red which is a strong color. I picked white, grey and black to combine with. 
 
-    The inspiration of this webpage is from a game called persona 5 and social application called line. And the conceptual design is like the moodboard displayed below. As the core color for the design is red which is a strong color. I picked white, grey and black to combine with. 
+    During the design stage, I also used adobe xd to design the layout so that I have a better understanding of I want to achieve. The design of this project started from a mobile-friendly layout and then moved to the tablet layout and pc layout. By doing such, it effectively reduced the amount of work of resizing blocks and images.
 
-    During the design stage, I also used adbobe xd to design the layout so that I have a better understanding about I want to achieve. The design of this project started from a mobile friendly layout, and then moved to tablet layout and pc layout. By doing such, it effectively reduced the amount of work of resizing blocks and images.
-
-    And as a part of requirement for this assignment, table, flex and grid is another big focus of the design. By applying table, flex and grid gave a clean layout about the content. 
+    And as a part of the requirement for this assignment, table, flex and grid is another big focus of the design. By applying table, flex and grid gave a clean layout about the content. 
+    
 
     - color scheme:
 
@@ -130,17 +131,17 @@ https://github.com/kkk987/portfolio.git
 
 * Usability considerations
 
-    The deisgn concept of this project is to keep things simple while providing the necessary infomation. As a result,the websites provides more pictures and gif files instead of lined of texts.
+    The design concept of this project is to keep things simple while providing the necessary information. As a result, the websites provide more pictures and gif files instead of lined of texts.
     
-    And as it is more common for users to have multiple devices nowadays, resposive design is also one of focuses when developing the website. Therefore, each devices has a different layout that best suits the device. At the moment, it supoorts mobile, tablet and pc (currently not supporting 4k screen).
+    And as it is more common for users to have multiple devices nowadays, the resposive design is also one of the focuses when developing the website. Therefore, each device has a different layout that best suits the device. At the moment, it supports mobile, tablet and pc (currently not supporting 4k screen).
     
-    A good example is the navigation bar. When user uses mobile for the website, the navigation bar will be a drop-down menu. But for tablet and pc, it will be a bar sticks on top of the screen. 
+    A good example is the navigation bar. When a user uses mobile for the website, the navigation bar will be a drop-down menu. But for tablet and pc, it will be a bar sticks on top of the screen. 
     
-    For user reading experience, texts and images will be adjusted accordingly. The text color and font are remained consistant for the whole page. And the selection of the font color has a strong contrast with the background color so that it is more obvious to users.
+    For user reading experience, texts and images will be adjusted accordingly. The text color and font remain consistent for the whole page. And the selection of the font color has a strong contrast with the background color so that it is more obvious to users.
 
-    For the functionality part, the navigation bar and all links are succeffsully functioning where will direct the user to related section or external websites. The only exception for now is the form submiting function. As there is no related database, the website will reposrt errors when users try to submit a contact form. 
+    For the functionality part, the navigation bar and all links are successfully functioning where will direct the user to the related section or external websites. The only exception, for now, is the form submitting function. As there is no related database, the website will report errors when users try to submit a contact form. 
 
-    Another concern for this portfolio is the capability for different browsers. The website is functioning as expected on latest version of chrome, firefox and safari. There are some issues with IE browser as IE doesn't support some codes like sticky which is a future feature in plan.    
+    Another concern for this portfolio is the capability for different browsers. The website is functioning as expected on the latest version of chrome, firefox and safari. There are some issues with IE browser as IE doesn't support some codes like sticky which is a future feature in the plan.    
 #
 
 ### Details of planning process
@@ -161,6 +162,28 @@ https://github.com/kkk987/portfolio.git
 
 1. Describe key events in the development of the internet from the 1980s to today (max. 150 words)
 
+    The internet was first designed in response to the nuclear attack back in 1969, but after 20 years of growth, it was widely used in the research area. And the first network protocol used to control over the ARPANET was the Network Control Protocol which was replaced by TCP/IP in 1983 where it is still used today. 
+
+    As the network develops, the networks moved from NSFNET (research only) to privatisation. By the end of 1995, there were an estimated 16 million internet users.  
+
+    The next key event is the establishment of ICANN in 1998. ICANN was designed for management of the internet with a focus of an open, transparent and collaborative model with global participation.
+
+    And until 1991,  the first web server was released by Berners Lee (where rapid growth of the early web comes after).
+
 2. Define and describes the relationship between fundamental aspects of the internet such as: domains, web servers, DNS, and web browsers (max. 150 words)
 
+    When a client tries to visit a website through a browser, the browser goes to the DNS server, and finds the real address of the server that the website lives on.
+
+    Then the browser sends an HTTP request message to the server, asking it to send a copy of the website to the client. This message, and all other data sent between the client and the server is sent across the internet connection using TCP/IP.
+
+    If the server approves the client's request, the server sends the client a "200 OK" message, and then starts sending the website's files to the browser as a series of small chunks called data packets.
+
+    In the end, browser assembles the small chunks into a complete website and displays it to the client.
+   
 3. Reflect on one aspect of the development of internet technologies and how it has contributed to the world today (max. 150 words)
+
+    HTML is one of the key fundamental technologies. It was created in 1991 but was not officially released. Instead, HTML 2.0 was released in 1995  which contains all the features of HTML 1.0 along with that few additional features; which remained as the standard markup language for designing and creating websites until January 1997 and refined various core features of HTML.
+
+    Then comes the HTML 3.0. It included improved new features of HTML, giving more powerful characteristics for webmasters in designing web pages. But these powerful features of new HTML slowed down the browser in applying further improvements.
+    
+    Then comes the HTML 4.01 which is widely used and was a successful version of HTML before HTML 5.0, which is currently released and used worldwide. HTML 5 can be said for as an extended version of HTML 4.01 which was published in the year 2012.
